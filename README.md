@@ -1,4 +1,4 @@
-![Jijon](https://cdn.onruntime.com/img/jerem/hodaka.jpg)
+![Jijon](https://cdn.onruntime.com/img/jerem/rain.jpg)
 
 👋 Hi there, i'm Jérémy (Jijon) and i'm 19yo !
 
