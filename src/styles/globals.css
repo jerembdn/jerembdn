@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Lucida-Console';
+  src:url('/fonts/Lucida-Console.ttf.woff') format('woff'),
+      url('/fonts/Lucida-Console.ttf.svg#Lucida-Console') format('svg'),
+      url('/fonts/Lucida-Console.ttf.eot'),
+      url('/fonts/Lucida-Console.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida-Console', sans-serif;
+  background-color: white;
+  color: black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
