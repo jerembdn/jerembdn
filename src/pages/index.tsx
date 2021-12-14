@@ -1,15 +1,17 @@
-import React, { FC } from 'react';
+import React from 'react';
 
-const HomePage: FC = () => {
-    return (
-        <>
-            <div>Wsh ça arrive bientôt</div>
-            <img
-                src="/assets/images/menteur.jpeg"
-                alt="Je viens de croiser un menteur là carrément je m'assoie tellement c'est trop"
-            />
-        </>
-    );
+import Page from 'components/Page';
+import { NextPage } from 'next';
+
+const HomePage: NextPage = () => {
+  return (
+    <Page
+      emoji="🤔"
+      title="who i am?"
+    >
+      <p>20 y/o web full-stack developer.</p>
+    </Page>
+  );
 };
 
 export default HomePage;
