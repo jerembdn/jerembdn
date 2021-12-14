@@ -8,7 +8,9 @@ import Link from 'components/Link';
 const AboutPage: NextPage = () => {
   return (
     <Page
+      emoji="🧍"
       title="about me"
+      subtitle="me.about();"
     >
       <p>
         I design, build and publish projects of quality and reliability. Currently, I&apos;m director and developer at <Link href="https://onruntime.com/" className="underlined">onRuntime</Link>.

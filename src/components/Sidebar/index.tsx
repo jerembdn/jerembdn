@@ -30,7 +30,7 @@ const Sidebar: FC = () => {
       links: [
         {
           name: 'onruntime',
-          label: '.onRuntime()',
+          label: '.onruntime()',
           path: '/projects/onruntime',
         },
         {
@@ -42,6 +42,31 @@ const Sidebar: FC = () => {
           name: 'ultrad.js',
           label: '.ultradjs()',
           path: '/projects/ultrad.js',
+        } 
+      ]
+    },
+    {
+      name: 'Misc',
+      links: [
+        {
+          name: 'contact',
+          label: '.contact()',
+          path: '/contact',
+        }
+      ]
+    },
+    {
+      name: 'Social',
+      links: [
+        {
+          name: 'github',
+          label: '.github()',
+          path: 'https://github.com/jerembdn',
+        },
+        {
+          name: 'linkedin',
+          label: '.linkedin()',
+          path: 'https://linkedin.com/in/jeremybdn',
         }
       ]
     }
@@ -59,7 +84,11 @@ const Container = styled.aside`
   width: 250px;
   padding: 0 10px;
   background-color: #eee;
+  overflow: auto;
   height: 100vh;
+`;
+
+const Image = styled.img`
 `;
 
 const Title = styled.h2`

@@ -8,6 +8,7 @@ const HomePage: NextPage = () => {
     <Page
       emoji="🤔"
       title="who i am?"
+      subtitle="me.is();"
     >
       <p>20 y/o web full-stack developer.</p>
     </Page>
