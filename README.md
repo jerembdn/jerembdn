@@ -4,7 +4,7 @@
 
 [![wakatime](https://wakatime.com/badge/user/03c7e06b-7a25-4e5c-a6e8-7db5fd2433c3.svg)](https://wakatime.com/@03c7e06b-7a25-4e5c-a6e8-7db5fd2433c3)
 
-👦 my name's jérémy, i'm 20yo, i'm a **fullstack web & mobile developer**, student at [needforschool](https://needfor.school/).
+👦 my name's jérémy, i'm 20yo, i'm a **fullstack web & mobile developer**, student at [needforschool](https://www.needfor-school.com/).
 
 ❤️ [open source](https://github.com/jerembdn) enthusiast
 
