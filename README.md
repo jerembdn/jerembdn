@@ -11,7 +11,3 @@
 🧠 hardworking on projects with my friends and mounting a collective project called **[onruntime](https://github.com/onruntime)** which is a creation studio..
 
 💻 have fun checking my **personal projects** but don't forget to check out **organizations i work on** too !
-
-<a href="https://app.daily.dev/Jijon" style="">
-  <img src="https://api.daily.dev/devcards/0e2d5265f4a34dfd91b3821e4caa77a9.png?r=61x" width="400" alt="Jérémy Baudrin's Dev Card" />
-</a>
