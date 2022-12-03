@@ -1,13 +1,25 @@
-# 👋 hi there, here is my github page !
+## Hi there 👋
 
-[![github stats](https://github-readme-stats.vercel.app/api?username=jerembdn&show_icons=true&title_color=3498db&icon_color=3498db&bg_color=0d1117&text_color=2980b9&hide_border=true&hide=stars&cache_seconds=7200)](https://github.com/jerembdn)
+- 👦 my name's jérémy, i'm 20yo, i'm a **fullstack web & mobile developer**, student at **[needforschool](https://www.needfor-school.com/)**.
 
-[![wakatime](https://wakatime.com/badge/user/03c7e06b-7a25-4e5c-a6e8-7db5fd2433c3.svg)](https://wakatime.com/@03c7e06b-7a25-4e5c-a6e8-7db5fd2433c3)
+- ❤️ active **[open source](https://github.com/jerembdn)** contributor.
 
-👦 my name's jérémy, i'm 20yo, i'm a **fullstack web & mobile developer**, student at [needforschool](https://www.needfor-school.com/).
+- 🧠 hardworking on projects with my friends and mounting a collective project called **[onruntime studo](https://github.com/onruntime)** which is a creation studio.
 
-❤️ [open source](https://github.com/jerembdn) enthusiast
+- 💻 have fun checking my **personal projects** but don't forget to check out **organizations i work on** too !
 
-🧠 hardworking on projects with my friends and mounting a collective project called **[onruntime](https://github.com/onruntime)** which is a creation studio..
+- 📫 you can reach me on **[twitter](https://twitter.com/jerembdn)** or **[linkedin](https://www.linkedin.com/in/jeremybdn/)**.
 
-💻 have fun checking my **personal projects** but don't forget to check out **organizations i work on** too !
+📊 Weekly development breakdown
+
+<!--START_SECTION:waka-->
+Loading...
+<!--END_SECTION:waka-->
+
+📈 My GitHub Stats
+
+![GitHub Snake dark](github-snake-dark.svg#gh-dark-mode-only)
+
+🎧 Currently listening
+
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31225jnpumbhbpldcz2wjg24aymi&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&bar_color=3356d7&bar_color_cover=false)](https://github.com/kittinan/spotify-github-profile)
