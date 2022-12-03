@@ -10,7 +10,7 @@
 
 - 📫 you can reach me on **[twitter](https://twitter.com/jerembdn)** or **[linkedin](https://www.linkedin.com/in/jeremybdn/)**.
 
-📊 Weekly development breakdown
+## 📊 Weekly development breakdown
 
 <!--START_SECTION:waka-->
 
@@ -20,11 +20,11 @@ Other        9 hrs 16 mins   ██████████░░░░░░░
 
 <!--END_SECTION:waka-->
 
-📈 My GitHub Stats
+## 📈 My GitHub Stats
 
 ![GitHub Snake Light](https://raw.githubusercontent.com/jerembdn/jerembdn/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 ![GitHub Snake Dark](https://raw.githubusercontent.com/jerembdn/jerembdn/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
-🎧 Currently listening
+### 🎧 Currently listening
 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31225jnpumbhbpldcz2wjg24aymi&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&bar_color=3356d7&bar_color_cover=false)](https://open.spotify.com/user/31225jnpumbhbpldcz2wjg24aymi)
