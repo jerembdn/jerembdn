@@ -13,6 +13,11 @@
 📊 Weekly development breakdown
 
 <!--START_SECTION:waka-->
+
+```text
+Other        9 hrs 16 mins   ██████████░░░░░░░░░░░░░░░   40.53 %
+```
+
 <!--END_SECTION:waka-->
 
 📈 My GitHub Stats
