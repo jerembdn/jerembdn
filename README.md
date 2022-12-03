@@ -4,7 +4,7 @@
 
 - ❤️ active **[open source](https://github.com/jerembdn)** contributor.
 
-- 🧠 hardworking on projects with my friends and mounting a collective project called **[onruntime studo](https://github.com/onruntime)** which is a creation studio.
+- 🧠 hardworking on projects with my friends and building a collective project called **[onruntime studio](https://github.com/onruntime)** which is a creation studio.
 
 - 💻 have fun checking my **personal projects** but don't forget to check out **organizations i work on** too !
 
