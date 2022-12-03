@@ -9,8 +9,6 @@ on:
   push:
     branches:
     - master
-    
-  
 
 jobs:
   generate:
