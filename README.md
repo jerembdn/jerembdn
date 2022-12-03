@@ -18,7 +18,8 @@ Loading...
 
 📈 My GitHub Stats
 
-![GitHub Snake dark](github-snake-dark.svg#gh-dark-mode-only)
+![GitHub Snake Light](https://raw.githubusercontent.com/jerembdn/jerembdn/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+![GitHub Snake Dark](https://raw.githubusercontent.com/jerembdn/jerembdn/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
 🎧 Currently listening
 
