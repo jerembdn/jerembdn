@@ -29,4 +29,4 @@ Other        6 mins          ▓░░░░░░░░░░░░░░░░
 
 ### 🎧 Currently listening
 
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31225jnpumbhbpldcz2wjg24aymi&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&bar_color=3356d7&bar_color_cover=false)](https://open.spotify.com/user/31225jnpumbhbpldcz2wjg24aymi)
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31ugdvkonmhxzbnkai2r7ue2empe&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&bar_color=3356d7&bar_color_cover=false)](https://open.spotify.com/user/31225jnpumbhbpldcz2wjg24aymi)
