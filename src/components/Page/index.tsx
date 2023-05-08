@@ -1,44 +1,29 @@
-import Head from 'next/head';
-import React, { FC } from 'react';
-
-import styled from 'styled-components';
+import React, { FC } from "react";
+import Head from "next/head";
+import styled from "styled-components";
 
 type Props = {
-  emoji?: string;
-  title: string;
-  subtitle?: string;
+  title?: string;
   children: React.ReactNode;
 };
 
-const Page: FC<Props> = ({ emoji, title, subtitle, children }: Props) => {
+const Page: FC<Props> = ({ title, children }: Props) => {
   return (
     <Container>
       <Head>
-        <title>Jérémy Baudrin - {title}</title>
+        <title>Jérémy Baudrin{title ? ` - ${title}` : ""}</title>
       </Head>
-      <Title>{emoji && `${emoji} `}{title}</Title>
-      <Subtitle>&gt; <span>{subtitle}</span></Subtitle>
+
       {children}
     </Container>
   );
 };
 
-const Container = styled.article`
-  flex: 1;
-  margin: 20px 0 0 100px;
-`;
+const Container = styled.div`
+  padding: 0 120px 50px 120px;
 
-const Title = styled.h1`
-  margin: 0;
-`;
-
-const Subtitle = styled.h2`
-  margin: 5px 0 0 0;
-  font-size: 18px;
-  font-weight: 400;
-  
-  span {
-    color: #cb0000;
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    padding: 0 20px 50px 20px;
   }
 `;
 

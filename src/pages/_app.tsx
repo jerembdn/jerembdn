@@ -1,17 +1,23 @@
-import '../styles/globals.css';
+import React, { FC } from "react";
+import { AppProps } from "next/app";
 
-import React, { FC } from 'react';
+import Layout from "../components/Layout";
 
-import { AppProps } from 'next/app';
+import GlobalStyle from "@/components/GlobalStyle";
+import Head from "@/components/Head";
+import { GlobalThemeProvider } from "@/contexts/GlobalTheme";
 
-import Layout from 'components/Layout';
-
-const _App: FC<AppProps> = ({ Component, pageProps }: AppProps) => {
+const App: FC<AppProps> = ({ Component, pageProps }: AppProps) => {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <GlobalThemeProvider>
+      <Layout>
+        <Head />
+        <GlobalStyle />
+
+        <Component {...pageProps} />
+      </Layout>
+    </GlobalThemeProvider>
   );
 };
 
-export default _App;
+export default App;

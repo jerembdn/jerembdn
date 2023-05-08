@@ -21,6 +21,7 @@ const Link: React.FC<Props> = ({
   if (isString(href)) {
     href = href as string;
     const internal = /^\/(?!\/)/.test(href);
+    
     if (!internal) {
       return (
         <a
@@ -36,7 +37,7 @@ const Link: React.FC<Props> = ({
   }
 
   return (
-    <NextLink href={href} as={as} locale={locale}>
+    <NextLink href={href} as={as} locale={locale} legacyBehavior>
       <a className={className}>{children}</a>
     </NextLink>
   );

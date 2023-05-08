@@ -1,0 +1,3 @@
+export const DISCORD = {
+  USER_ID: '560989735292633088',
+}
