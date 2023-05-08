@@ -13,7 +13,7 @@ FROM base AS builder
 
 WORKDIR /usr/src/app
 
-COPY --chown=node:node package.json pnpm-lock.yaml .npmrc ./
+COPY --chown=node:node package.json pnpm-lock.yaml ./
 
 RUN pnpm install --frozen-lockfile
 
