@@ -1,3 +1,3 @@
-import HomePage from '.';
+import HomePage from ".";
 
 export default HomePage;

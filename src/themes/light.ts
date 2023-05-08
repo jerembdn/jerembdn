@@ -15,7 +15,7 @@ const light: Theme = {
       primary: createColor(17, 19, 21),
       secondary: createColor(26, 29, 31),
     },
-    
+
     text: {
       primary: createColor(255, 255, 255),
       secondary: createColor(200, 200, 200),
@@ -25,8 +25,8 @@ const light: Theme = {
     elements: {
       link: {
         text: createColor(255, 255, 255),
-      }
-    }
+      },
+    },
   },
 };
 

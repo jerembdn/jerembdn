@@ -1,7 +1,5 @@
 import { createGlobalStyle } from "styled-components";
 
-import { convertRGBtoRGBA } from "@/utils/convertRGBtoRGBA";
-
 export default createGlobalStyle`
     html,
     body,

@@ -9,4 +9,4 @@ export type Activity = {
     end: number;
   };
   created_at: number;
-}
+};

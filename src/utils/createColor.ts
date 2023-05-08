@@ -17,4 +17,4 @@ const createAlphaFromString = (rgb: string, a: number): string => {
   return "";
 };
 
-export { createColor, createAlpha, createAlphaFromString };
+export { createAlpha, createAlphaFromString, createColor };

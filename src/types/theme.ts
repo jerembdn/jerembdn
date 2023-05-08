@@ -1,12 +1,12 @@
 export type Theme = {
   id: number;
   colors: {
-    primary: string,
-    secondary: string,
-    success: string,
-    warning: string,
-    danger: string,
-    info: string,
+    primary: string;
+    secondary: string;
+    success: string;
+    warning: string;
+    danger: string;
+    info: string;
 
     background: {
       primary: string;
@@ -22,7 +22,7 @@ export type Theme = {
     elements: {
       link: {
         text: string;
-      }
-    }
+      };
+    };
   };
 };

@@ -19,10 +19,7 @@ export type MainTheme = {
     bold: number;
   };
   /* Default as Smartphones (landscape) */
-  size: Size & {
-    /* Desktops and laptops */
-    desktop: Size;
-  };
+  size: Size;
   breakpoint: {
     /* Desktops and laptops */
     desktop: string;

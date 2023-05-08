@@ -1,9 +1,10 @@
 import { DefaultTheme } from "styled-components";
 
 import dark from "./dark";
-import main from "./main";
-import { Theme } from "@/types/theme";
 import light from "./light";
+import main from "./main";
+
+import { Theme } from "@/types/theme";
 
 export const createTheme = (theme: Theme): DefaultTheme => {
   return { ...main, ...theme };
