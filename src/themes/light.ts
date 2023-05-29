@@ -23,6 +23,8 @@ const light: Theme = {
     },
 
     elements: {
+      border: createColor(0, 0, 0),
+
       link: {
         text: createColor(255, 255, 255),
       },
