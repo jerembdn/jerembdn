@@ -20,6 +20,8 @@ export type Theme = {
     };
 
     elements: {
+      border: string;
+
       link: {
         text: string;
       };

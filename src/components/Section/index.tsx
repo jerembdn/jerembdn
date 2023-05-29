@@ -2,8 +2,6 @@ import React from "react";
 import slugify from "slugify";
 import styled from "styled-components";
 
-import Link from "@/components/Link";
-
 type Props = {
   title: string;
   emoji?: string;
@@ -16,10 +14,8 @@ const Section: React.FC<Props> = ({ title, emoji, children }: Props) => {
   return (
     <Container id={slugifiedTitle}>
       <Title>
-        <Link href={`/#${slugifiedTitle}`}>
-          {emoji ? `${emoji} ` : ""}
-          {title}
-        </Link>
+        {emoji ? `${emoji} ` : ""}
+        {title}
       </Title>
       {children}
     </Container>

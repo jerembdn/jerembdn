@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
+import Link from "@/components/Link";
 import type { Activity } from "@/types/activity";
 import { calculateElapsedTimeSince } from "@/utils/calculateElapsedTimeSince";
 
@@ -10,7 +11,7 @@ type Props = {
 
 const ActivityCard: React.FC<Props> = ({ activity }: Props) => {
   return (
-    <Container>
+    <Container href={"/presence"}>
       {
         {
           0: (
@@ -51,7 +52,7 @@ const ActivityCard: React.FC<Props> = ({ activity }: Props) => {
   );
 };
 
-const Container = styled.div`
+const Container = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: center;

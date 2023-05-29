@@ -23,6 +23,8 @@ const dark: Theme = {
     },
 
     elements: {
+      border: createColor(255, 255, 255),
+
       link: {
         text: createColor(255, 255, 255),
       },

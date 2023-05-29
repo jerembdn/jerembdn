@@ -21,23 +21,32 @@ const Header: React.FC<Props> = ({ navLinks }: Props) => {
   const [activity, setActivity] = React.useState<Activity | undefined>();
 
   React.useEffect(() => {
-    axios
-      .get(`/api/presence/${DISCORD.USER_ID}`)
-      .then((res: AxiosResponse<APIResponse<Activity>>) => {
-        if (
-          res.status === 200 &&
-          res.data &&
-          res.data.success &&
-          res.data.data
-        ) {
-          return res.data.data;
-        } else {
-          throw new Error("Unable to fetch activity");
-        }
-      })
-      .then((data: Activity) => {
-        setActivity(data);
-      });
+    const updateActivity = async () => {
+      axios
+        .get(`/api/presence/${DISCORD.USER_ID}`)
+        .then((res: AxiosResponse<APIResponse<Activity>>) => {
+          if (
+            res.status === 200 &&
+            res.data &&
+            res.data.success &&
+            res.data.data
+          ) {
+            return res.data.data;
+          } else {
+            throw new Error("Unable to fetch activity");
+          }
+        })
+        .then((data: Activity) => {
+          setActivity(data);
+        });
+    };
+    updateActivity();
+
+    const interval = setInterval(() => {
+      updateActivity();
+    }, 1000 * 60);
+
+    return () => clearInterval(interval);
   }, []);
 
   return (
@@ -70,6 +79,7 @@ const Header: React.FC<Props> = ({ navLinks }: Props) => {
 };
 
 const Container = styled.header`
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
