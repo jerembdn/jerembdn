@@ -56,7 +56,7 @@ const Header = styled.div`
   border-bottom: 1px solid ${({ theme }) => theme.colors.elements.border};
 `;
 
-const Title = styled.h3`
+const Title = styled.div`
   font-size: ${({ theme }) => theme.size.large};
   font-weight: ${({ theme }) => theme.weight.medium};
 `;
@@ -83,7 +83,7 @@ const SectionContainer = styled.div`
   gap: 10px;
 `;
 
-const SectionTitle = styled.h4`
+const SectionTitle = styled.div`
   font-size: ${({ theme }) => theme.size.medium};
   font-weight: ${({ theme }) => theme.weight.medium};
 `;

@@ -8,21 +8,39 @@ import Page from "@/components/Page";
 import ProjectCard from "@/components/Project/Card";
 import Section from "@/components/Section";
 import { PROJECTS } from "@/constants/projects";
+import { GlobalThemeContext } from "@/contexts/GlobalTheme";
 import { Project } from "@/types/project";
+import { getAge } from "@/utils/getAge";
 
 const HomePage: NextPage = () => {
-  const ageXD = React.useMemo(() => {
-    const birthDate = new Date("2001-07-05");
-    const diff = Date.now() - birthDate.getTime();
-    const ageDate = new Date(diff);
+  const { globalTheme, switchTheme } = React.useContext(GlobalThemeContext);
 
-    return Math.abs(ageDate.getUTCFullYear() - 1970);
+  const ageXD = React.useMemo(() => {
+    const jijonBirthDate = new Date("2001-07-05");
+    return getAge(jijonBirthDate);
   }, []);
+
+  const handleSwitchTheme = React.useCallback(() => {
+    switchTheme(globalTheme.id === 0 ? "light" : "dark");
+  }, [globalTheme, switchTheme]);
 
   return (
     <Page>
-      <Title>Jérémy Baudrin,</Title>
-      <Subtitle>web developer.</Subtitle>
+      <Title>
+        Jérémy Baudrin,{" "}
+        <Subtitle>
+          web developer{" "}
+          <ThemeSwitcher onClick={handleSwitchTheme}>
+            {
+              {
+                0: "🌙",
+                1: "☀️",
+              }[globalTheme.id]
+            }
+          </ThemeSwitcher>
+          .
+        </Subtitle>
+      </Title>
 
       <Section title={"what i do"} emoji={"🤔"}>
         <Text>
@@ -133,8 +151,9 @@ const Title = styled.h1`
   }
 `;
 
-const Subtitle = styled.h2`
+const Subtitle = styled.div`
   font-size: ${({ theme }) => theme.size.title};
+  font-weight: ${({ theme }) => theme.weight.regular};
   color: ${({ theme }) => theme.colors.text.secondary};
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
@@ -160,5 +179,11 @@ const ProjectsList = styled.ul`
 `;
 
 const ProjectItem = styled.li``;
+
+const ThemeSwitcher = styled.span`
+  cursor: pointer;
+  color: ${({ theme }) => theme.colors.background.primary};
+  user-select: none;
+`;
 
 export default HomePage;

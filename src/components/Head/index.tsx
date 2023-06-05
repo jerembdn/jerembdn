@@ -45,7 +45,7 @@ const Head: React.FC<HeadProps> = ({
         theme: "dark",
         md: 1,
         fontSize: "100px",
-        images: `${APP_URL}/static/images/logo/logo.svg`,
+        images: `${APP_URL}/static/logo.jpg`,
         thumbnail: thumbnailUrl,
       }
     ) || "/static/images/open-graph-image.jpg";
@@ -97,8 +97,7 @@ const Head: React.FC<HeadProps> = ({
         },
         {
           name: "viewport",
-          content:
-            "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=0",
+          content: "width=device-width, initial-scale=1, user-scalable=yes",
         },
         {
           name: "theme-color",

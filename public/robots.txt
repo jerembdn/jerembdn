@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /presence/
+
+# Host
+Host: https://jeremybdn.fr
+
+# Sitemaps
+Sitemap: https://jeremybdn.fr/sitemap.xml
+Sitemap: https://jeremybdn.fr/server-sitemap.xml

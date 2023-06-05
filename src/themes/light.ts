@@ -2,7 +2,7 @@ import { Theme } from "@/types/theme";
 import { createColor } from "@/utils/createColor";
 
 const light: Theme = {
-  id: 0,
+  id: 1,
   colors: {
     primary: createColor(176, 36, 241),
     secondary: createColor(176, 96, 241),
@@ -12,21 +12,21 @@ const light: Theme = {
     info: createColor(52, 152, 219),
 
     background: {
-      primary: createColor(17, 19, 21),
-      secondary: createColor(26, 29, 31),
+      primary: createColor(255, 255, 255),
+      secondary: createColor(245, 245, 245),
     },
 
     text: {
-      primary: createColor(255, 255, 255),
-      secondary: createColor(200, 200, 200),
-      tertiary: createColor(150, 150, 150),
+      primary: createColor(17, 19, 21),
+      secondary: createColor(51, 51, 51),
+      tertiary: createColor(119, 119, 119),
     },
 
     elements: {
-      border: createColor(0, 0, 0),
+      border: createColor(17, 19, 21),
 
       link: {
-        text: createColor(255, 255, 255),
+        text: createColor(17, 19, 21),
       },
     },
   },
