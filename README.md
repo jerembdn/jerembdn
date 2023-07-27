@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-- 👦 my name's jérémy, i'm 20yo, i'm a **fullstack web & mobile developer**, student at **[needforschool](https://www.needfor-school.com/)**.
+- 👦 my name's jérémy, i'm 22yo, i'm a **fullstack web & mobile developer**, student at **[needforschool](https://www.needfor-school.com/)**.
 
 - ❤️ active **[open source](https://github.com/jerembdn)** contributor.
 
