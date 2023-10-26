@@ -15,11 +15,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-TypeScript       19 hrs 55 mins  ████████████▓░░░░░░░░░░░░   50.47 %
-PHP              6 hrs 34 mins   ████▒░░░░░░░░░░░░░░░░░░░░   16.67 %
-YAML             2 hrs 3 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   05.22 %
-Python           1 hr 51 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   04.70 %
-ActionScript 3   1 hr 38 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.14 %
+TypeScript       21 hrs 17 mins  ████████████▓░░░░░░░░░░░░   50.15 %
+PHP              8 hrs 15 mins   █████░░░░░░░░░░░░░░░░░░░░   19.44 %
+YAML             2 hrs 27 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   05.78 %
+Python           1 hr 51 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.37 %
+ActionScript 3   1 hr 33 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.66 %
 ```
 
 <!--END_SECTION:waka-->
