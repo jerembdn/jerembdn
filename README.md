@@ -1,6 +1,6 @@
 ## hi there 👋
 
-- 👦 jeremy,  22yo, **fullstack web & mobile developer**, graduate from **[needforschool](https://www.needfor-school.com/)** IT school.
+- 👦 jeremy,  23yo, **fullstack web & mobile developer**, graduate from **[needforschool](https://www.needfor-school.com/)** IT school.
 - ❤️ active **[open source](https://github.com/jerembdn)** contributor.
 - 🧠 founded **[onruntime studio](https://github.com/onruntime)** which is a digital creation studio.
 - 💻 working on **[tonightpass](https://tonightpass.com)**, **[thegreensuits](https://thegreensuits.fr)**, **[musy](https://github.com/musyapp)** and much more...
